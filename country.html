@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>country</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <h3>Where in the World?</h3>
+                <div class="d-flex mode" onclick="changeMode()">
+                    <div class="left">
+                        <!-- <input type="checkbox" id="checkbox" class="checkbox"> -->
+                        <label for="checkbox" class="label">
+                            <!-- <i class="fas fa-moon"></i> -->
+                            <i class="fas fa-sun" id="mode-icon"></i>
+                            <!-- <div class="ball"></div> -->
+                        </label>
+                    </div>
+
+                    <p id="current-mode">Light Mode</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <button class="btn-primary" id="back-btn">Back</button>
+            </div>
+            <div class="country-section">
+                <div class="d-flex upper-flex" id="country-holder">
+                    <div class="col-6">
+                        <div class="img-box">
+                            <img src="img/Country.png" alt="country" class="w-100 img-holder-country">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="country-details">
+                            <div class="country-name">
+                                <h2 class="font-bold">Germany</h2>
+                            </div>
+                            <div class="d-flex">
+                                <div class="col-6">
+                                    <div class="sub-details">
+                                        <p><span class="font-bold">Native Name:</span> name</p>
+                                        <p><span class="font-bold">population:</span> 1823384</p>
+                                        <p><span class="font-bold">Region:</span> Europe</p>
+                                        <p><span class="font-bold">Sub Region:</span> Europe</p>
+                                        <p><span class="font-bold">Capital:</span> Berlin</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="sub-details">
+                                        <p><span class="font-bold">Top Level Domain:</span> name</p>
+                                        <p><span class="font-bold">Currency:</span> 1823384</p>
+                                        <p><span class="font-bold">Languages:</span> Europe</p>
+                                        <!-- <p><span class="font-bold">Sub Region:</span> Europe</p>
+                                        <p><span class="font-bold">Capital:</span> Berlin</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sub-details">
+                                <hr class="mb-20">
+                                <div class="d-flex">
+                                    <p class="font-bold border-title">Borders:</p>
+                                
+                                    <div class="d-flex">
+                                        <div class="border-cube">
+                                            china
+                                        </div>
+                                        <div class="border-cube">
+                                            china
+                                        </div>
+                                        <div class="border-cube">
+                                            china
+                                        </div>
+                                    </div>
+                                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/app1.js"></script>
+</body>
+</html>
