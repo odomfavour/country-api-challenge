@@ -1,4 +1,4 @@
-const baseURL = "https://restcountries.eu/rest/v2/";
+const baseURL = "https://restcountries.com/v2/";
 let countryHolder = document.querySelector('#country-holder');
 
 document.addEventListener('DOMContentLoaded', getCountries);
